@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background: red;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -20,11 +20,11 @@
   
   .navbar-logo {
     color: #fff;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
+    justify-self: center;
+    
     text-decoration: none;
     font-size: 2rem;
+    font-family: 'Tangerine', serif;
     display: flex;
     align-items: center;
   }

@@ -6,14 +6,14 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <h1>ADVENTURE AWAITS</h1>
-            <p>What are you waiting for?</p>
+            <h1>Welcome to Luigi's!</h1>
+            <p>Where you'll never leave hungry</p>
             <div className='hero-btns'>
-                <Button className='btns' buttonStyle='btn--outline'
-                buttonSize='btn--large'>GET STARTED</Button>
                 <Button className='btns' buttonStyle='btn--primary'
-                buttonSize='btn--large'>WATCH TRAILER 
-                <i className='far fa-play-circle' /></Button>
+                buttonSize='btn--large'>LOOK AT OUR MENU</Button>
+                <Button className='btns' buttonStyle='btn--primary'
+                buttonSize='btn--large'>ABOUT THE LUIGI'S FAMILY
+                </Button>
             </div>
         </div>
     );
