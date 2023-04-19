@@ -4,16 +4,12 @@ import { Link } from 'react-router-dom';
 function CardItem() {
     return (
         <>
-            <li className='cards_item'>
-                <Link className='cards_item_link'>
-                    <figure className='cards_item_pic-wrap'>
-                        <img src='/' alt='Travel Image' className='cards_item_img'/>
-                    </figure>
-                    <div className='cards_item_info'>
-                        <h5 className='cards_item_text'/>
-                    </div>
-                </Link>
-            </li>
+            <Link>
+                <img src='../public/ravioli.jpg' alt='Our signature ravioli in meat sauce'/>
+                <div>
+                    <h5>Placeholder</h5>
+                </div>
+            </Link>  
         </>
     )
 }
