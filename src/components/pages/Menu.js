@@ -1,18 +1,27 @@
 import React from "react";
 import '../../App.css';
 import './Menu.css';
+import Spaghetti, { Alfredo } from "../MenuItems";
+import { Ravioli, Lasagna } from "../MenuItems";
 
 function Menu () {
     return (
         <>
             <h1>Our Menu</h1>
-            <div class='container'>
-                <div class='image'>
-                    <img src='https://www.allrecipes.com/thmb/ASRzxoRrPoMLQEpczFvU7osJNF4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/21353-italian-spaghetti-sauce-with-meatballs-2x1-141-cedbb650b4264576ab923c91215ce7fc.jpg' />
+            <div class='row'>
+                <div class='column'>
+                    <Spaghetti />
                 </div>
-                <div class='text'>
-                    <h2>Spaghetti</h2>
-                    <p>Placeholder</p>
+                <div class='column'>
+                    <Ravioli />
+                </div>
+            </div>
+            <div class='row'>
+                <div class='column'>
+                    <Lasagna />
+                </div>
+                <div class='column'>
+                    <Alfredo />
                 </div>
             </div>
         </>

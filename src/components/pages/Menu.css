@@ -4,10 +4,9 @@ img {
     height: 300px;
     object-fit: cover;
     border-radius: 25%;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 100%;
-    padding-right: 20px;
+    padding: 20px;
+    float: left;
 }
 
 h1 {
@@ -19,6 +18,7 @@ h2 {
     font-size: 35px;
     font-weight: bold;
     padding-left: 20px;
+    padding-top: 20px;
 }
 
 p {
@@ -26,8 +26,10 @@ p {
     padding-left: 20px;
 }
 
-.container {
+.row {
     display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+.column {
+    flex: 50%;
 }
