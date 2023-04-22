@@ -5,7 +5,6 @@ import './App.css';
 import Home from './components/pages/Home';
 import Menu from './components/pages/Menu';
 
-
 function App() {
   return (
     <>

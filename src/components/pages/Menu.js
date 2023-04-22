@@ -1,7 +1,7 @@
 import React from "react";
 import '../../App.css';
 import './Menu.css';
-import Spaghetti, { Alfredo } from "../MenuItems";
+import Spaghetti, { Alfredo, Cannoli, Scampi, Tiramisu, Tortellini } from "../MenuItems";
 import { Ravioli, Lasagna } from "../MenuItems";
 
 function Menu () {
@@ -24,6 +24,23 @@ function Menu () {
                     <Alfredo />
                 </div>
             </div>
+            <div class='row'>
+                <div class='column'>
+                    <Scampi />
+                </div>
+                <div class='column'>
+                    <Tortellini />
+                </div>
+            </div>
+            <div class='row'>
+                <div class='column'>
+                    <Cannoli />
+                </div>
+                <div class='column'>
+                    <Tiramisu />
+                </div>
+            </div>
+            <h1>More menu items coming soon!</h1>
         </>
     )
 };
