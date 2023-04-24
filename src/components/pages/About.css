@@ -1,0 +1,9 @@
+.container {
+    border: solid;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
