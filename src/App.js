@@ -5,6 +5,7 @@ import './App.css';
 import Home from './components/pages/Home';
 import Menu from './components/pages/Menu';
 import About from './components/pages/About';
+import SignIn from './components/pages/SignIn';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' element={<Home/>} />
           <Route path='/menu' element={<Menu/>} />
           <Route path='/about' element={<About/>} />
+          <Route path='/sign-up' element={<SignIn/>} />
         </Routes>
       </Router>
     </>
