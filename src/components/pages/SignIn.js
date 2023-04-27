@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { Register } from "../Register";
 import { Login } from "../Login";
 
 function SignIn() {
+    const [currentForm, setCurrentForm] = useState('login');
+
     return (
         <>
-            <Login />
-            <p>Click here to register!</p>
+            {
+                currentForm === 'login' ? <Login /> : <Register />
+            }
         </>
     )
 }
