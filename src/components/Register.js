@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 
 export const Register = () => {
     const [email, setEmail] = useState('');
@@ -12,6 +12,7 @@ export const Register = () => {
 
     return (
         <>
+            <div className='auth-form-container'>
             <form onSubmit={handleSubmit}>
                 <label htmlFor='name'>Full name</label>
                 <input value={name} name='name' id='name' placeholder='Full name' />
@@ -22,6 +23,7 @@ export const Register = () => {
                 <button type='submit'>Log in</button>
             </form>
             <p>Already have an account? Login here</p>
+            </div>
         </>
     )
 }
