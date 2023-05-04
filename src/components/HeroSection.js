@@ -1,6 +1,5 @@
 import React from "react";
 import '../App.css';
-import { Button } from './Button';
 import './HeroSection.css';
 import { Link } from "react-router-dom";
 
@@ -11,10 +10,10 @@ function HeroSection() {
             <p>Where you'll never leave hungry</p>
             <div className='hero-btns'>
                 <Link to='/menu'>
-                    <Button>LOOK AT OUR MENU</Button>
+                    <button>LOOK AT OUR MENU</button>
                 </Link>
                 <Link to='/about'>
-                    <Button>ABOUT THE LUIGI'S FAMILY</Button>
+                    <button>ABOUT THE LUIGI'S FAMILY</button>
                 </Link>
             </div>
         </div>
