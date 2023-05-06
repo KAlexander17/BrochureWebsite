@@ -20,18 +20,6 @@ function Footer() {
                     </form>
                 </div>
             </section>
-            <div className='footer-links'>
-                <div className='footer-link-wrapper'>
-                    <div className='footer-link-items'>
-                        <h2>About Us</h2>
-                        <Link to='/sign-up'>Sign-up</Link>
-                        <h2>About Us</h2>
-                        <Link to='/sign-up'>Sign-up</Link>
-                        <h2>About Us</h2>
-                        <Link to='/sign-up'>Sign-up</Link>
-                    </div>
-                </div>
-            </div>
             <section className='social-media'>
                 <div className='social-media-wrap'>
                     <div className='social-icons'>

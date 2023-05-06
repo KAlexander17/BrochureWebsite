@@ -2,8 +2,14 @@
     border: solid;
     margin: 20px;
     padding: 20px;
+    background-color: bisque;
 }
 
 h1 {
     text-align: center;
+}
+
+ul {
+    font-size: 30px;
+    margin-left: 45px;
 }

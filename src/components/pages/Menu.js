@@ -1,5 +1,4 @@
 import React from "react";
-import '../../App.css';
 import './Menu.css';
 import Spaghetti, { Alfredo, Cannoli, Scampi, Tiramisu, Tortellini } from "../MenuItems";
 import { Ravioli, Lasagna } from "../MenuItems";
@@ -7,7 +6,7 @@ import { Ravioli, Lasagna } from "../MenuItems";
 function Menu () {
     return (
         <>
-            <h1>Our Menu</h1>
+            <h1 className='bisque'>Our Menu</h1>
             <div class='row'>
                 <div class='column'>
                     <Spaghetti />
@@ -40,9 +39,11 @@ function Menu () {
                     <Tiramisu />
                 </div>
             </div>
-            <h1>More menu items coming soon!</h1>
+            <h1 className='bisque'>More menu items coming soon!</h1>
         </>
     )
 };
+
+
 
 export default Menu;

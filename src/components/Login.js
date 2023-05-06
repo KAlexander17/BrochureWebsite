@@ -12,6 +12,7 @@ export const Login = () => {
     return (
         <>
             <div className='auth-form-container'>
+            <h1>Sign up and get special discounts and even free desserts with certain purchases!</h1>
             <form onSubmit={handleSubmit}>
                 <label htmlfor='email'>Email</label>
                 <input value={email} type='email' placeholder='Your email' id='email' name='email' />

@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient(FireBrick 10%, LightYellow 90%);
+    background-color: bisque;
     font-size: 30px;
 }
 

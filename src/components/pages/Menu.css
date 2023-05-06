@@ -29,8 +29,14 @@ p {
 
 .row {
     display: flex;
+    background-color: bisque;
 }
 
 .column {
     flex: 50%;
+    background-color: bisque;
+}
+
+.bisque {
+    background-color: bisque;
 }
