@@ -3,7 +3,11 @@ import { Button } from './Button';
 import './Footer.css';
 import { Link } from "react-router-dom";
 
+
+
 function Footer() {
+    
+
     return (
         <div className='footer-container'>
             <section className='footer-subscription'>
@@ -16,7 +20,9 @@ function Footer() {
                         name='email' 
                         placeholder='Your Email' 
                         className='footer-input'/>
-                        <Button buttonStyle='btn--outline'>Subscribe</Button>
+                        <Button onClick={function subscription() {
+                            alert('Thank you! If this is a valid email, you will now receive emails with promotions! If you want to unsubscribe, you can do so by following the link at the bottom of any email.')
+                        }} buttonStyle='btn--outline'>Subscribe</Button>
                     </form>
                 </div>
             </section>
