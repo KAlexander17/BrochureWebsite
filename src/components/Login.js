@@ -21,7 +21,9 @@ export const Login = () => {
                     <label htmlfor='password'>Password</label>
                     <input type='password' placeholder='Your password' id='password' name='password' />
                 </form>
-                <button type='submit'>Log in</button>
+                <button onClick={function subscription() {
+                    alert('You are now logged in!')
+                }}type='submit'>Log in</button>
                 <p>Don't have an account?</p>
                 <Link to='/register'>Register here</Link>
             </div>

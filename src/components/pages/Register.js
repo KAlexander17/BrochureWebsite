@@ -27,7 +27,9 @@ export const Register = () => {
                             </form>
                         </div>
                         <div className='modal-footer'>
-                            <button type='button'>Register</button>
+                            <button onClick={function subscription() {
+                                alert('Thank you! You are now registered and logged in!')
+                            }}type='button'>Register</button>
                         </div>
                         <div>
                             <Link to='/sign-up'>Back to Login</Link>
